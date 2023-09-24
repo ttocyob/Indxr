@@ -38,3 +38,5 @@ Manages the download functionality for files.
 Binds click and keyup events for interactions with the overlay, such as opening and closing it.
 
 Indxr allows you to create directory listings with features like breadcrumbs, filtering, descriptions, and a full-screen overlay for viewing various content types. It's designed to make directory navigation and file access user-friendly.
+
+Licensed under the GNU GPL v3
