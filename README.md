@@ -1,42 +1,25 @@
-Indxr 0.3.2
+<h3><strong>Indxr 0.3.2</strong></h3>
 
-Indxr is a modular directory indexer. It includes various PHP modules for handling different aspects of the directory listing, such as breadcrumbs, functions, directory and file filtering, and displaying summary information.
+👉 Check out the <a href="http://cored.org" title="Indxr" target="_blank">live demo</a>.
 
-Here's a breakdown :
+<hr />
 
-Breadcrumbs Module:
-Responsible for generating a hierarchical breadcrumb trail to navigate through directories.
-Constructs breadcrumb links with icons for each directory component in the current path.
-Handles cases where the "indxr_breadcrumbs.php" file is missing.
+<strong>Indxr</strong> is a modular directory indexer coded by PHP. It empowers the user to efficiently manage and showcase directory listings with features, including breadcrumbs, functional utilities, directory and file filtering, and comprehensive summary presentation. With Indxr, you can seamlessly display a wide range of content types, including images, audio, video, and text, all within a user-friendly fullscreen overlay experience, without ever leaving your website.
 
-Functions Module:
-Contains functions and code used throughout the directory indexer.
-Defines a configuration array for specifying filtering rules (hidden file extensions, directory names, etc.).
-Provides functions for retrieving descriptions for directories and files.
-Reads directory and file descriptions from external files.
-Filters hidden items based on the rules defined in the configuration array.
+<hr />
 
-Directory and File Filtering Module:
-Handles directory and file filtering and processing.
-Separates items into directories and files.
-Filters hidden items based on rules defined in the configuration.
-Sorts directories and files naturally.
-Randomizes file order for large directories.
-Generates an HTML table to display directory and file information.
+<strong>Key Features:</strong>
 
-Summary Module:
-Generates a summary of visible directories and files within a directory.
-Calculates and displays information such as the number of visible objects, directories, and total file size.
-Handles cases where the "indxr_summary.php" file is missing.
+<strong>Breadcrumbs Module:</strong> Easily navigate through directories with a hierarchical breadcrumb trail.
 
-JavaScript for Full-Screen Overlay:
-Provides functionality for a full-screen overlay to display and interact with various types of content (images, audio, video, text).
-Includes a function to map MIME types to Foundation Icons.
-Functions to open and close the full-screen overlay based on the content type.
-Handles media controls (e.g., play/pause) for audio and video content.
-Manages the download functionality for files.
-Binds click and keyup events for interactions with the overlay, such as opening and closing it.
+<strong>Functional Utilities:</strong> Leverage a set of useful functions for enhanced directory and file management.
 
-Indxr allows you to create directory listings with features like breadcrumbs, filtering, descriptions, and a full-screen overlay for viewing various content types. It's designed to make directory navigation and file access user-friendly.
+<strong>Content Flexibility:</strong> Display a variety of content types like images, audio, video, and text within a sleek fullscreen overlay.
 
-Licensed under the GNU GPL v3
+<strong>Smart Filtering:</strong> Effortlessly filter directories and files while maintaining complete control over hidden items.
+
+<strong>Summary Insights:</strong> Gain insights into your directory listings with informative summaries of visible objects, directories, and file sizes.
+
+<hr />
+
+<strong>Indxr</strong> empowers you to create a robust directory presentation that's both engaging and user-friendly.
