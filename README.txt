@@ -1,10 +1,8 @@
 Indxr 0.3.2
 
-Indxr is a modular directory indexer system. It includes various PHP modules for handling different aspects of the directory listing, such as breadcrumbs, functions, directory and file filtering, and displaying summary information.
+Indxr is a modular directory indexer. It includes various PHP modules for handling different aspects of the directory listing, such as breadcrumbs, functions, directory and file filtering, and displaying summary information.
 
 Here's a breakdown :
-
-The "Indxr" directory indexer is a modular tool for creating directory listings. Here's a breakdown of its key components and functionalities:
 
 Breadcrumbs Module:
 Responsible for generating a hierarchical breadcrumb trail to navigate through directories.
@@ -39,4 +37,4 @@ Handles media controls (e.g., play/pause) for audio and video content.
 Manages the download functionality for files.
 Binds click and keyup events for interactions with the overlay, such as opening and closing it.
 
-This Indexer allows you to create directory listings with features like breadcrumbs, filtering, descriptions, and a full-screen overlay for viewing various content types. It's designed to make directory navigation and file access user-friendly.
+Indxr allows you to create directory listings with features like breadcrumbs, filtering, descriptions, and a full-screen overlay for viewing various content types. It's designed to make directory navigation and file access user-friendly.
