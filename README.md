@@ -16,7 +16,7 @@
 
 <strong>Content Flexibility:</strong> Display a variety of content types like images, audio, video, and text within a sleek fullscreen overlay.
 
-<strong>Smart Filtering:</strong> Effortlessly filter directories and files while maintaining complete control over hidden items.
+<strong>Smart Filtering:</strong> Effortlessly filter directories and files while maintaining complete control over hidden items, including Directory and File descriptions.
 
 <strong>Summary Insights:</strong> Gain insights into your directory listings with informative summaries of visible objects, directories, and file sizes.
 
