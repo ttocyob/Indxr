@@ -1,0 +1,11 @@
+TODO
+
+Thumbnail Previews (Potential Enhancement): Provides potential for generating and displaying thumbnail previews for image files.
+
+Security measures to prevent directory traversal attacks.
+
+Optimize the script for performance, especially when handling large directories.
+
+Enhance user interactivity with features like search.
+
+Implement access control to restrict access to certain directories or files.
