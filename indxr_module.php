@@ -6,7 +6,7 @@
 							</div>
 			        		<div id="Indxr_Directory">
 								<?php
-									$file_path = "/home/coreaqko/public_html/indxr.php";
+									$file_path = "indxr.php";
 
 									if (file_exists($file_path)) {
     									include($file_path);
