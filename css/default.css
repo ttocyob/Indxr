@@ -149,7 +149,7 @@ p.a[target]:hover {
 
 .Indxr-component_bg {
     background-color: #fefefe;
-    padding: 10px 0 0 10px;
+    padding: 10px 0 0 2px;
     /* display: inline-block; */
     width: 100%;
 }
@@ -170,25 +170,46 @@ th, td {
     text-align: left; /* Align text to the left */
 }
 
-/* Target the "Type" column header specifically */
-th.file_tableheader:first-child {
-    width: 5%; /* Adjust the width as needed */
+/* Target the "Icon" column header specifically */
+th.file_tableheader:first-child,
+td.icon-cell {
+    width: 5% !important; /* Adjust the width as needed */
+    max-width: 5% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /* Target the "Name" column header */
-th.file_tableheader:nth-child(2) {
-    width: 45%; /* Adjust the width as needed */
+th.file_tableheader:nth-child(2),
+td.name-cell {
+    width: 45% !important; /* Adjust the width as needed */
+    max-width: 45% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /* Target the "Last Modified" column header */
-th.file_tableheader:nth-child(3) {
-    width: 30%; /* Adjust the width as needed */
+th.file_tableheader:nth-child(3),
+td.modified-cell {
+    width: 30% !important; /* Adjust the width as needed */
+    max-width: 30% !important;
     text-align:center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /* Target the "Size" column header */
-th.file_tableheader:nth-child(4) {
+th.file_tableheader:nth-child(4),
+td.size-cell {
+    width: 20% !important; /* Adjust the width as needed */
+    max-width: 20% !important;
     text-align:center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /* Styling for odd and even rows */
@@ -208,10 +229,8 @@ tbody{
 tbody td{
 	background-color: #fefefe; /* #f5f5f5 #fefefe */
 	/* padding: 8px 10px 10px; */
-	padding: 0px 10px 10px;
+	padding: 0px 10px 4px; /* 0 10 10 */
 }
-
-/* tbody td:nth-child(3), tbody td:nth-child(4) {text-align:center;} */
 
 .file_tableheader{
 	font-weight: bold;
