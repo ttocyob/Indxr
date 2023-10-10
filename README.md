@@ -10,9 +10,7 @@
 
 <strong>Key Features:</strong>
 
-<strong>Breadcrumbs Module:</strong> Easily navigate through directories with a hierarchical breadcrumb trail.
-
-<strong>Functional Utilities:</strong> Leverage a set of useful functions for enhanced directory and file management.
+<strong>Breadcrumbs:</strong> Easily navigate through directories with a hierarchical breadcrumb trail.
 
 <strong>Content Flexibility:</strong> Display a variety of content types like images, audio, video, and text within a sleek fullscreen overlay.
 
