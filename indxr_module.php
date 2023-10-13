@@ -2,7 +2,7 @@
 					<div id="Indxr_br-top">
 						<div id="Indxr_main">
 							<div id="Indxr_header">
-			      				<span class="window_id"><a href="http://cored.org/" id="indxr" title="Indxr"><i class="fi-folder"></i> Indxr</a></span>
+			      				<span class="window_id"><a href="http://indxr.cored.org/" id="indxr" title="Indxr" class="alt"><i class="fi-folder"></i> Indxr</a></span>
 							</div>
 			        		<div id="Indxr_Directory">
 								<?php
