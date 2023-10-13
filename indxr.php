@@ -3,7 +3,7 @@
         <div class="breadcrumb">
             <?php
             // Breadcrumbs module
-            $indxr_breadcrumbs_path = "/home/coreaqko/public_html/indxr_breadcrumbs.php";
+            $indxr_breadcrumbs_path = "indxr_breadcrumbs.php";
 
             if (file_exists($indxr_breadcrumbs_path)) {
                 include($indxr_breadcrumbs_path);
@@ -16,7 +16,7 @@
     </div>
     <?php
         // Include Indxr functions
-        $indxr_functions_path = "/home/coreaqko/public_html/indxr_functions.php";
+        $indxr_functions_path = "indxr_functions.php";
 
         if (file_exists($indxr_functions_path)) {
             include($indxr_functions_path);
@@ -26,7 +26,7 @@
         }
 
         // Include Directory and File Indexing and Filters
-        $dir_fil_filter_path = "/home/coreaqko/public_html/indxr_dir_fil_filter.php";
+        $dir_fil_filter_path = "indxr_dir_fil_filter.php";
 
         if (file_exists($dir_fil_filter_path)) {
             include($dir_fil_filter_path);
@@ -76,7 +76,7 @@
         <?php
             // Read directory descriptions from the external "indxr_dir_desc.php" file
             // Define the file path for directory descriptions
-            $dirDescriptionsPath = '/home/coreaqko/public_html/indxr_dir_desc.php';
+            $dirDescriptionsPath = "indxr_dir_desc.php";
 
             if (file_exists($dirDescriptionsPath)) {
                 $dirDescriptions = include $dirDescriptionsPath;
@@ -169,7 +169,7 @@ if (in_array($extension, ['png', 'jpeg', 'jpg', 'webp', 'gif', 'svg', 'bmp', 'ic
         <?php
         // Read file descriptions from the external "indxr_file_desc.php" file
         // Define the file path for file descriptions
-        $fileDescriptionsPath = '/home/coreaqko/public_html/indxr_file_desc.php';
+        $fileDescriptionsPath = "indxr_file_desc.php";
 
         if (file_exists($fileDescriptionsPath)) {
             $fileDescriptions = include $fileDescriptionsPath;
@@ -190,7 +190,7 @@ if (in_array($extension, ['png', 'jpeg', 'jpg', 'webp', 'gif', 'svg', 'bmp', 'ic
 
 <div id="indxr-summary">
 	<?php
-		$file_path = "/home/coreaqko/public_html/indxr_summary.php";
+		$file_path = "indxr_summary.php";
 
 		if (file_exists($file_path)) {
     		include($file_path);

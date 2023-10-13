@@ -19,7 +19,7 @@
 						</div>
 					</div>
 					<div id="Indxr_footer">
-			        	<span class="window_footer"><strong>Indxr</strong></span>
+			        	<span class="window_footer"><strong>インデクサー</strong></span>
 						<span class="window_footer_design text_small"> Indxr <?php echo '' . $indxrversion; ?> - <?php echo '' . $indxrdesigned; ?></span>
 			  		</div>
 				</div>

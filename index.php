@@ -11,11 +11,11 @@
 		<title>Indxr</title>
 		<meta name="Description" content="Directory and Files Indexer">
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-		<link rel="icon" type="image/png" href="/favicon.png">
+		<link rel="icon" type="image/png" href="/favicon-196x196.png">
 		<!-- stylesheets -->
 		<link rel="stylesheet" href="/css/foundation-icons.css">
 		<link rel="stylesheet" href="/css/default.css">
-		<!-- <base href=""> -->
+		<base href="http://indxr.cored.org/">
 		<script src="/js/jquery.js"></script>
 		<script src="/js/indxr_foverlay.js"></script>
 	</head>

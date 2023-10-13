@@ -4,7 +4,7 @@
 $filterConfig = [
     "hiddenExtensions" => [".tmp", ".bak"], // Add file extensions to hide
     "hiddenDirectories" => ["hidden_dir"], // Add directory names to hide
-    "hiddenExtensionsWithWildcards" => ["*.log", "*.shtml"], // Add wildcard extensions to hide
+    "hiddenExtensionsWithWildcards" => ["*.log", "*.shtml", "*.md", "*.php"], // Add wildcard extensions to hide
 ];
 
 // Function to get directory description
@@ -76,9 +76,18 @@ function readFileDescriptions($filePath)
 // Define an array of filenames, extensions, or wildcards to hide
 $hiddenItems = [
     "hidden_file.txt", // Specific file to hide
+    ".htaccess",
     "secret_*", // Hide files starting with 'secret_'
     "private-folder", // Hide a specific directory
     "backup*", // Hide directories starting with 'backup'
+    "cgi-bin",
+    "css",
+    "js",
+    ".well-known",
+    "AUTHORS",
+    "COPYING",
+    "README.md",
+    "TODO",
 ];
 
 // Function to check if an item (file or directory) should be hidden
@@ -105,6 +114,8 @@ function getMIMEIcon($filename)
         "image/png" => "photo",
         "image/gif" => "photo",
         "image/webp" => "photo",
+        "image/bmp" => "photo", // Add support for BMP
+        "image/x-icon" => "photo", // Add support for ICO (Icon)
         "image/svg+xml" => "photo", // Added support for .svg image files
         "video/webm" => "video",
         "video/mp4" => "video",
@@ -133,6 +144,7 @@ function getMIMEIcon($filename)
         "text/plain" => "page", // Added support for .txt text files
         "font/ttf" => "page", // Added support for .ttf font files
     ];
+
 
     // Check if the filename ends with ".tar.gz" or ".tgz"
     if (preg_match('/\.tar\.gz$|\.tgz$/', $filename)) {
