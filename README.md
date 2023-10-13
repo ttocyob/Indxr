@@ -1,6 +1,6 @@
 <h3><strong>Indxr 0.3.2</strong></h3>
 
-👉 Check out the <a href="http://cored.org" title="Indxr" target="_blank">live demo</a>.
+👉 Check out the <a href="https://indxr.cored.org" title="Indxr" target="_blank">live demo</a>.
 
 <hr />
 
