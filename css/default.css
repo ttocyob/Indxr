@@ -210,6 +210,7 @@ td.modified-cell {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    color: #c0c0c0;
 }
 
 /* Target the "Size" column header */
@@ -221,6 +222,7 @@ td.size-cell {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    color: #c0c0c0;
 }
 
 /* Styling for odd and even rows */
