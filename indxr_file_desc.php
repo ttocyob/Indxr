@@ -1,6 +1,6 @@
 <?php
 return [
-// From /about/ 
-    'README.md' => "README",
+// From / 
+    'files_supported.txt' => "Read me",
 ];
 ?>
