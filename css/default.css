@@ -114,7 +114,9 @@ p.a[target]:hover, a#Launch_Slidr_module:hover {
 #Indxr_br-top{
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
-	border: 1px solid rgba(240, 240, 240, 0.65); /* 240 */
+    border-style: solid;
+    border-width: 1px;
+	border-color: rgba(92, 92, 92, 0.15); /* 240 */
 	/* border: 1px solid rgba(198, 54, 60, 0.65); */ /* 240 */
 	background-color: #f5f5f5;
 	border-bottom: none;
@@ -167,23 +169,24 @@ p.a[target]:hover, a#Launch_Slidr_module:hover {
 
 /* table */
 /* Basic table styling */
-table {
+table.indxr {
     border-collapse: collapse;
     width: 100%;
+    background-color: transparent;
 }
 
-table, th, td {
+table.indxr, table.indxr th, table.indxr td {
     border: none; /* Add borders for cells and table */
 }
 
-th, td {
+table.indxr th, table.indxr td {
     padding: 8px; /* Add padding to cells for spacing */
     text-align: left; /* Align text to the left */
 }
 
 /* Target the "Icon" column header specifically */
-th.file_tableheader:first-child,
-td.icon-cell {
+table.indxr th.file_tableheader:first-child,
+table.indxr td.icon-cell {
     width: 5% !important; /* Adjust the width as needed */
     max-width: 5% !important;
     overflow: hidden;
@@ -192,8 +195,8 @@ td.icon-cell {
 }
 
 /* Target the "Name" column header */
-th.file_tableheader:nth-child(2),
-td.name-cell {
+table.indxr th.file_tableheader:nth-child(2),
+table.indxr td.name-cell {
     width: 45% !important; /* Adjust the width as needed */
     max-width: 45% !important;
     overflow: hidden;
@@ -202,8 +205,8 @@ td.name-cell {
 }
 
 /* Target the "Last Modified" column header */
-th.file_tableheader:nth-child(3),
-td.modified-cell {
+table.indxr th.file_tableheader:nth-child(3),
+table.indxr td.modified-cell {
     width: 30% !important; /* Adjust the width as needed */
     max-width: 30% !important;
     text-align:center;
@@ -214,8 +217,8 @@ td.modified-cell {
 }
 
 /* Target the "Size" column header */
-th.file_tableheader:nth-child(4),
-td.size-cell {
+table.indxr th.file_tableheader:nth-child(4),
+table.indxr td.size-cell {
     width: 20% !important; /* Adjust the width as needed */
     max-width: 20% !important;
     text-align:center;
@@ -226,20 +229,20 @@ td.size-cell {
 }
 
 /* Styling for odd and even rows */
-tr:nth-child(even) {
-    background-color: #fefefe;
+table.indxr tr:nth-child(even) {
+    /* background-color: #fefefe; */
 }
 
-tr:nth-child(odd) {
-    background-color: #fefefe;
+table.indxr tr:nth-child(odd) {
+    /* background-color: #fefefe; */
 }
 
-tbody{
+table.indxr tbody{
 	/* border: 1px solid #fefefe; */
     border: none;
-	background-color: #fefefe; /* #f5f5f5 #fefefe */
+	/* background-color: #fefefe; */ /* #f5f5f5 #fefefe */
 }
-tbody td{
+table.indxr tbody td{
 	background-color: #fefefe; /* #f5f5f5 #fefefe */
 	/* padding: 8px 10px 10px; */
 	padding: 0px 10px 4px; /* 0 10 10 */
@@ -255,7 +258,7 @@ tbody td{
     color: #c0c0c0;
 }
 
-#Indxr_footer {
+#Indxr_footer, #Slidr_footer {
 	position: relative;
 	background: #c0c0c0;
 	color: inherit;
@@ -265,9 +268,12 @@ tbody td{
 	/* margin-bottom:24px; */
 	border-bottom-left-radius:4px;
 	border-bottom-right-radius:4px;
-	border: 1px solid rgba(192, 192, 192, 0.65);/ /* 192 */
+    border-style: solid;
+    border-width: 1px;
+	border-color: rgba(92, 92, 92, 0.15);/ /* 192 */
 	/* border: 1px solid rgba(198, 54, 60, 0.65); /* 192 */ 
 	border-top: none;
+    border-top-style: none;
 	padding-right:10px;
   	box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.15); /* Set the box shadow */
 }
